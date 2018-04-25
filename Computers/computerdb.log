@@ -1,0 +1,4 @@
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE if not exists computer ( id integer identity primary key, name varchar(40), type int,memory int,disk_capacity int,display_density int)
+INSERT INTO COMPUTER VALUES(30,'asd',0,1,1,4)
+COMMIT
